@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C843531C2455B4C8009F89E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C843531B2455B4C8009F89E0 /* README.md */; };
 		C87C07EB245482DC00E9E916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C07EA245482DC00E9E916 /* AppDelegate.swift */; };
 		C87C07ED245482DC00E9E916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C07EC245482DC00E9E916 /* SceneDelegate.swift */; };
 		C87C07F0245482DC00E9E916 /* Memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C87C07EE245482DC00E9E916 /* Memo.xcdatamodeld */; };
@@ -16,10 +17,11 @@
 		C87C07FA245482DF00E9E916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87C07F8245482DF00E9E916 /* LaunchScreen.storyboard */; };
 		C87C08022454833700E9E916 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C87C08012454833700E9E916 /* .gitignore */; };
 		C87C08052454891800E9E916 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C08032454891800E9E916 /* Todo+CoreDataClass.swift */; };
-		C87C08062454891800E9E916 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C08042454891800E9E916 /* Todo+CoreDataProperties.swift */; };
+		C87C080D2455AAEB00E9E916 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C080C2455AAEB00E9E916 /* Todo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C843531B2455B4C8009F89E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C87C07E7245482DC00E9E916 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87C07EA245482DC00E9E916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C87C07EC245482DC00E9E916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +33,7 @@
 		C87C07FB245482DF00E9E916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87C08012454833700E9E916 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C87C08032454891800E9E916 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		C87C08042454891800E9E916 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C87C080C2455AAEB00E9E916 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		C87C07DE245482DC00E9E916 = {
 			isa = PBXGroup;
 			children = (
+				C843531B2455B4C8009F89E0 /* README.md */,
 				C87C08012454833700E9E916 /* .gitignore */,
 				C87C07E9245482DC00E9E916 /* Memo */,
 				C87C07E8245482DC00E9E916 /* Products */,
@@ -89,8 +92,8 @@
 		C87C08072454893000E9E916 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				C87C080C2455AAEB00E9E916 /* Todo+CoreDataProperties.swift */,
 				C87C08032454891800E9E916 /* Todo+CoreDataClass.swift */,
-				C87C08042454891800E9E916 /* Todo+CoreDataProperties.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				C87C08022454833700E9E916 /* .gitignore in Resources */,
 				C87C07FA245482DF00E9E916 /* LaunchScreen.storyboard in Resources */,
+				C843531C2455B4C8009F89E0 /* README.md in Resources */,
 				C87C07F7245482DF00E9E916 /* Preview Assets.xcassets in Resources */,
 				C87C07F4245482DF00E9E916 /* Assets.xcassets in Resources */,
 			);
@@ -172,7 +176,7 @@
 				C87C07F2245482DC00E9E916 /* ContentView.swift in Sources */,
 				C87C08052454891800E9E916 /* Todo+CoreDataClass.swift in Sources */,
 				C87C07ED245482DC00E9E916 /* SceneDelegate.swift in Sources */,
-				C87C08062454891800E9E916 /* Todo+CoreDataProperties.swift in Sources */,
+				C87C080D2455AAEB00E9E916 /* Todo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
