@@ -20,7 +20,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    TextField("Task",text: $todo).padding(.all, 20)
+                    TextField("Task", text: $todo).padding(.all, 20)
                     Button(action: {
                        
                         guard self.todo != "" else {return}
@@ -32,6 +32,7 @@ struct ContentView: View {
                         
                         do {
                             try self.managedObjectContext.save()
+                            self.todo = ""
                             print("rder saved")
                         } catch {
                             print(error.localizedDescription)
